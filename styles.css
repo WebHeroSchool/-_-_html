@@ -2,6 +2,9 @@ body {
   border: dashed 1px red;
 margin: 0;
 }
+.main-content__title{
+  font-family: 'Roboto', sans-serif;
+}
 .wrapper{
   border: dashed 1px red;
 margin: auto;
@@ -18,8 +21,7 @@ width: 80%;
 .logo {
   border: dashed 1px red;
   padding: 40px 0;
-  margin-right: 63%;
-}
+  }
 .menu {
   display: flex;
   align-items: center;
