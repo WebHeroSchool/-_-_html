@@ -19,7 +19,7 @@ width: 80%;
   border: dashed 1px red;
   }
 .logo {
-  font-family: 'PT Serif' , arial, helvetica, sans-serif;
+  font-family: pt_serifregular , arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 40px 0;
   }
