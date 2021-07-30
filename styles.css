@@ -19,10 +19,32 @@ width: 80%;
   border: dashed 1px red;
   }
 .logo {
-  font-family: pt_serifregular , arial, helvetica, sans-serif;
+  position: relative;
+  font: bold 24px/31px pt_serifregular , arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 40px 0;
   }
+  .logo__text {
+    padding-left: 44px;
+  }
+.logo__circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+  border: dashed 1px red;
+}
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
 .menu {
   display: flex;
   align-items: center;
