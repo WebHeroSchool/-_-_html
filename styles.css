@@ -59,6 +59,8 @@ body {
 .menu__item {
   border: dashed 1px red;
   padding: 0 13px;
+  color: #000000;
+  text-decoration: none;
   }
 
 .menu__item:last-child {
