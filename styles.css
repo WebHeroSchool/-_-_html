@@ -1,32 +1,35 @@
 body {
   border: dashed 1px red;
-margin: 0;
+  margin: 0;
 }
-.main-content__title{
-  font-family: 'Roboto', sans-serif;
-}
+
 .wrapper{
   border: dashed 1px red;
-margin: auto;
-width: 80%;
+  margin: auto;
+  width: 80%;
 }
+
 .header {
   border: dashed 1px red;
   display: flex;
   justify-content: space-between;
   }
+
 .logo, .menu {
   border: dashed 1px red;
   }
+
 .logo {
   position: relative;
-  font: bold 24px/31px pt_serifregular , arial, helvetica, sans-serif;
+  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 40px 0;
   }
+
   .logo__text {
-    padding-left: 44px;
+  padding-left: 44px;
   }
+
 .logo__circle {
   position: absolute;
   top: 50%;
@@ -37,22 +40,39 @@ width: 80%;
   opacity: .7;
   border: dashed 1px red;
 }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB
+  background: #C8DBFB;
 }
+
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 .menu__item {
   border: dashed 1px red;
   padding: 0 13px;
   }
+
 .menu__item:last-child {
   padding-right: 0;
+}
+
+.main-content__title {
+  font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
+}
+
+.main-content__subtitle {
+  font: 500 18px/21px 'roboto', sans-serif;
+}
+
+.main-content__button, .menu__item {
+  font: 500 14px/16px 'roboto', sans-serif;
 }
