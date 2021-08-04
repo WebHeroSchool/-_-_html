@@ -26,7 +26,7 @@ body {
   padding: 40px 0;
   }
 
-  .logo__text {
+.logo__text {
   padding-left: 44px;
   }
 
@@ -57,17 +57,20 @@ body {
 }
 
 .menu__item {
+  font: 500 18px/21px 'roboto', arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 0 13px;
   color: #000000;
   text-decoration: none;
-  position:relative;
+  position: relative;
   margin-right: 26px;
   opacity:0.5
   }
 
 .menu__item:last-child {
   padding-right: 0;
+  margin-right: 0;
+  color: red;
 }
 
 .main-content__title {
@@ -93,5 +96,4 @@ menu__item:hover {
   height: 3px;
   background: #0056EC;
   left: 0;
-  margin-right: 0;
 }
