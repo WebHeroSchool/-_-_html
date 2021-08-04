@@ -26,7 +26,7 @@ body {
   padding: 40px 0;
   }
 
-  .logo__text {
+.logo__text {
   padding-left: 44px;
   }
 
@@ -51,20 +51,6 @@ body {
   background: #0056EC;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  border: dashed 1px red;
-  padding: 0 13px;
-  }
-
-.menu__item:last-child {
-  padding-right: 0;
-}
-
 .main-content__title {
   font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
 }
@@ -75,4 +61,45 @@ body {
 
 .main-content__button, .menu__item {
   font: 500 14px/16px 'roboto', sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  border: dashed 1px red;
+  padding: 0 13px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  margin-right: 26px;
+  opacity: 1;
+  }
+
+.menu__item:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  opacity: 0.5;
+}
+
+.menu__item::after{
+  position: absolute;
+  left: 0;
+  display: block;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.menu__item:hover::after, .menu__item_active::after{
+  opacity: 1;
+  width: 100%;
 }
