@@ -51,27 +51,6 @@ body {
   background: #0056EC;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  font: 500 18px/21px 'roboto', arial, helvetica, sans-serif;
-  border: dashed 1px red;
-  padding: 0 13px;
-  color: #000000;
-  text-decoration: none;
-  position: relative;
-  margin-right: 26px;
-  opacity:0.5
-  }
-
-.menu__item:last-child {
-  padding-right: 0;
-  margin-right: 0;
-}
-
 .main-content__title {
   font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
 }
@@ -84,16 +63,43 @@ body {
   font: 500 14px/16px 'roboto', sans-serif;
 }
 
-.menu__item:hover {
-  color: red;
+.menu {
+  display: flex;
+  align-items: center;
 }
 
-.menu__item_active::after {
+.menu__item {
+  border: dashed 1px red;
+  padding: 0 13px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  margin-right: 26px;
+  opacity: 1;
+  }
+
+.menu__item:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  opacity: 0.5;
+}
+
+.menu__item::after{
   position: absolute;
+  left: 0;
   display: block;
   content: '';
-  width: 100%;
+  width: 0;
   height: 3px;
   background: #0056EC;
-  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.menu__item:hover::after, .menu__item_active::after{
+  opacity: 1;
+  width: 100%;
 }
