@@ -70,7 +70,6 @@ body {
 .menu__item:last-child {
   padding-right: 0;
   margin-right: 0;
-  color: red;
 }
 
 .main-content__title {
@@ -85,7 +84,8 @@ body {
   font: 500 14px/16px 'roboto', sans-serif;
 }
 
-menu__item:hover {
+.menu__item:hover {
+  color: red;
 
 }
 .menu__item_active::after {
