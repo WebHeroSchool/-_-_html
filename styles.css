@@ -13,7 +13,7 @@ body {
   border: dashed 1px red;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 240px;
 }
 
 .logo, .menu {
@@ -22,7 +22,7 @@ body {
 
 .logo {
   position: relative;
-  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
+  font: bold 24px/32px pt_serifregular, arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 40px 0;
 }
@@ -62,18 +62,18 @@ body {
 }
 
 .main__title {
-  font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
+  font: bold 66px/87px pt_serifregular, arial, helvetica, sans-serif;
   margin: 0 0 40px 0;
 }
 
 .main__subtitle {
-  font: 500 18px/21px 'roboto', sans-serif;
+  font: normal 22px/26px 'roboto', sans-serif;
   margin: 0 0 41px 0;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 14px 16px;
@@ -93,7 +93,7 @@ body {
 
 .menu__item {
   border: dashed 1px red;
-  font: 500 14px/16px 'roboto', sans-serif;
+  font: 500 18px/21px 'roboto', sans-serif;
   padding: 0 13px;
   color: #000000;
   text-decoration: none;
