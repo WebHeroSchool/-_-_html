@@ -57,6 +57,10 @@ body {
   background: top right no-repeat url(image/image.svg);
 }
 
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+
 .main__title {
   font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
   margin: 0 0 40px 0;
