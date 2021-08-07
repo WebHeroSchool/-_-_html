@@ -51,15 +51,25 @@ body {
   background: #0056EC;
 }
 
-.main-content__title {
+.main {
+  padding-top: 100px;
+  padding-right: 63%;
+  background: url(image/image.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.main__title {
   font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
 
-.main-content__subtitle {
+.main__subtitle {
   font: 500 18px/21px 'roboto', sans-serif;
+  margin: 0 0 41px 0;
 }
 
-.main-content__button, .menu__item {
+.main__button, .menu__item {
   font: 500 14px/16px 'roboto', sans-serif;
 }
 
@@ -102,9 +112,4 @@ body {
 .menu__item:hover::after, .menu__item_active::after{
   opacity: 1;
   width: 100%;
-}
-
-.main-content {
-  padding-top: 100px;
-  width: 37%;
 }
