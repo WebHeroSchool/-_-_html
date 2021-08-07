@@ -13,22 +13,23 @@ body {
   border: dashed 1px red;
   display: flex;
   justify-content: space-between;
-  }
+  margin-bottom: 100px;
+}
 
 .logo, .menu {
   border: dashed 1px red;
-  }
+}
 
 .logo {
   position: relative;
   font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
   border: dashed 1px red;
   padding: 40px 0;
-  }
+}
 
 .logo__text {
   padding-left: 44px;
-  }
+}
 
 .logo__circle {
   position: absolute;
@@ -52,11 +53,8 @@ body {
 }
 
 .main {
-  padding-top: 100px;
-  padding-right: 63%;
-  background: url(image/image.svg);
-  background-repeat: no-repeat;
-  background-position: center right;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(image/image.svg);
 }
 
 .main__title {
