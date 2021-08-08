@@ -13,7 +13,7 @@ body {
   border: dashed 1px red;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 246px;
+  margin-bottom: 206px;
 }
 
 .logo, .menu {
