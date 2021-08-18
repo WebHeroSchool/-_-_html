@@ -53,8 +53,8 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
-  background: top right no-repeat url(image/image.svg);
+  padding: 0 63% 130px 0;
+  background: bottom right no-repeat url(image/image.svg);
   background-size: 50% auto;
 }
 
