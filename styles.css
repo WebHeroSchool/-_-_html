@@ -11,8 +11,8 @@
 
 .logo {
   position: relative;
-  font: bold 24px/32px pt_serifregular, arial, helvetica, sans-serif;
-  padding: 10px 0;
+  font: normal 24px/32px pt_serifbold, arial, helvetica, sans-serif;
+  padding: 9px 0;
 }
 
 .logo__text {
@@ -50,9 +50,9 @@
 }
 
 .main__title {
-  font: bold 72px/89px pt_serifregular, arial, helvetica, sans-serif;
+  font: normal 66px/87px pt_serifbold, arial, helvetica, sans-serif;
   margin: 0 0 30px 0;
-  padding: 68px 0 4px;
+  padding: 70px 0 9px;
 }
 
 .main__subtitle {
