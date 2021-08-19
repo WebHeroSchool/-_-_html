@@ -1,34 +1,23 @@
-body {
-  border: dashed 1px red;
-  margin: 0;
-}
-
 .wrapper{
-  border: dashed 1px red;
   margin: auto;
   width: 80%;
 }
 
 .header {
-  border: dashed 1px red;
   display: flex;
   justify-content: space-between;
-  }
-
-.logo, .menu {
-  border: dashed 1px red;
-  }
+  margin-bottom: 137px;
+}
 
 .logo {
   position: relative;
-  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
-  border: dashed 1px red;
-  padding: 40px 0;
-  }
+  font: bold 24px/32px pt_serifregular, arial, helvetica, sans-serif;
+  padding: 10px 0;
+}
 
 .logo__text {
   padding-left: 44px;
-  }
+}
 
 .logo__circle {
   position: absolute;
@@ -38,7 +27,6 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: .7;
-  border: dashed 1px red;
 }
 
 .logo__circle_color_blue {
@@ -51,16 +39,40 @@ body {
   background: #0056EC;
 }
 
-.main-content__title {
-  font: bold 50px/66px pt_serifregular, arial, helvetica, sans-serif;
+.main {
+  padding: 0 63% 210px 0;
+  background: 99.4% 0% no-repeat url(image/image.svg);
+  background-size: 50% auto;
 }
 
-.main-content__subtitle {
-  font: 500 18px/21px 'roboto', sans-serif;
+.main__title-text_highlight {
+  background: #ECF3FF;
 }
 
-.main-content__button, .menu__item {
-  font: 500 14px/16px 'roboto', sans-serif;
+.main__title {
+  font: bold 72px/89px pt_serifregular, arial, helvetica, sans-serif;
+  margin: 0 0 30px 0;
+  padding: 68px 0 4px;
+}
+
+.main__subtitle {
+  font: normal 22px/26px 'roboto', sans-serif;
+  margin: 0 0 44px 0;
+}
+
+.main__button {
+  display: inline-block;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 17px 27px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
 
 .menu {
@@ -69,12 +81,12 @@ body {
 }
 
 .menu__item {
-  border: dashed 1px red;
-  padding: 0 13px;
+  font: 500 18px/21px 'roboto', sans-serif;
+  padding: 0 0px;
   color: #000000;
   text-decoration: none;
   position: relative;
-  margin-right: 26px;
+  margin-right: 27px;
   opacity: 1;
   }
 
@@ -102,4 +114,26 @@ body {
 .menu__item:hover::after, .menu__item_active::after{
   opacity: 1;
   width: 100%;
+}
+
+.circles{
+  position: absolute;
+  padding-top: 54px;
+  padding-left: 39%
+}
+.circles__first, .circles__second, .circles__third{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #C8D8FB;
+  opacity: 0.7;
+  border-radius: 50%;
+ }
+
+.circles__second{
+  margin-left: 12px;
+}
+
+.circles__third{
+  margin-left: 24px;
 }
