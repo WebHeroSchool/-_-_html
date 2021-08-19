@@ -12,7 +12,7 @@
 .logo {
   position: relative;
   font: bold 24px/32px pt_serifregular, arial, helvetica, sans-serif;
-  padding: 11px 0;
+  padding: 10px 0;
 }
 
 .logo__text {
@@ -52,12 +52,12 @@
 .main__title {
   font: bold 72px/89px pt_serifregular, arial, helvetica, sans-serif;
   margin: 0 0 30px 0;
-  padding-top: 67px;
+  padding: 68px 0 4px;
 }
 
 .main__subtitle {
   font: normal 22px/26px 'roboto', sans-serif;
-  margin: 0 0 47px 0;
+  margin: 0 0 44px 0;
 }
 
 .main__button {
@@ -114,4 +114,26 @@
 .menu__item:hover::after, .menu__item_active::after{
   opacity: 1;
   width: 100%;
+}
+
+.circles{
+  position: absolute;
+  padding-top: 54px;
+  padding-left: 39%
+}
+.circles__first, .circles__second, .circles__third{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #C8D8FB;
+  opacity: 0.7;
+  border-radius: 50%;
+ }
+
+.circles__second{
+  margin-left: 12px;
+}
+
+.circles__third{
+  margin-left: 24px;
 }
