@@ -1,29 +1,17 @@
-body {
-  border: dashed 1px red;
-  margin: 0;
-}
-
 .wrapper{
-  border: dashed 1px red;
   margin: auto;
   width: 80%;
 }
 
 .header {
-  border: dashed 1px red;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
-}
-
-.logo, .menu {
-  border: dashed 1px red;
+  margin-bottom: 137px;
 }
 
 .logo {
   position: relative;
   font: bold 24px/32px pt_serifregular, arial, helvetica, sans-serif;
-  border: dashed 1px red;
   padding: 11px 0;
 }
 
@@ -39,7 +27,6 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: .7;
-  border: dashed 1px red;
 }
 
 .logo__circle_color_blue {
@@ -53,8 +40,8 @@ body {
 }
 
 .main {
-  padding: 0 63% 130px 0;
-  background: bottom right no-repeat url(image/image.svg);
+  padding: 0 63% 210px 0;
+  background: 99.4% 0% no-repeat url(image/image.svg);
   background-size: 50% auto;
 }
 
@@ -65,11 +52,12 @@ body {
 .main__title {
   font: bold 72px/89px pt_serifregular, arial, helvetica, sans-serif;
   margin: 0 0 30px 0;
+  padding-top: 67px;
 }
 
 .main__subtitle {
   font: normal 22px/26px 'roboto', sans-serif;
-  margin: 0 0 45px 0;
+  margin: 0 0 47px 0;
 }
 
 .main__button {
@@ -77,7 +65,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 16px 30px;
+  padding: 17px 27px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
@@ -93,13 +81,12 @@ body {
 }
 
 .menu__item {
-  border: dashed 1px red;
   font: 500 18px/21px 'roboto', sans-serif;
   padding: 0 0px;
   color: #000000;
   text-decoration: none;
   position: relative;
-  margin-right: 26px;
+  margin-right: 27px;
   opacity: 1;
   }
 
