@@ -138,13 +138,13 @@
   margin-left: 24px;
 }
 
-@media (max-width: 768px) {
-  .menu__box, .menu__btn {
+@media (min-width: 768px) {
+  .menu__box, .menu__toggle {
     display: none;
   }
 }
 @media (max-width: 768px) {
-  .menu {
+  .menu, .logo__text {
     display: none;
   }
 
