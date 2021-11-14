@@ -139,7 +139,7 @@
 }
 
 @media (min-width: 768px) {
-  .menu__box, .menu__toggle {
+  .menu__box, .menu__burger {
     display: none;
   }
 }
