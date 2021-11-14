@@ -166,4 +166,11 @@
  .main__button {
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
  }
+
+ .menu__burger {
+        position: relative;
+        width: 40px;
+        height: 35px;
+        display: block;
+        margin-left: 10px;
 }
